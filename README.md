@@ -12,4 +12,4 @@ Currently, two official plugins are available:
 
 
 # Automatic deployment
-Added automatic deployment using github actions following this tutorial https://www.youtube.com/watch?v=MKw-IriprJY
+Added automatic deployment using github actions following this tutorial https://vitejs.dev/guide/static-deploy#github-pages
