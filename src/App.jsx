@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import ProjectsGallery from './pages/ProjectsGallery';
 import ErrorPage from './pages/ErrorPage';
 import Footer from './pages/Footer';
+import About from './pages/About';
 
 function App() {
     return <Router>
@@ -15,6 +16,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects-gallery" element={<ProjectsGallery />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
