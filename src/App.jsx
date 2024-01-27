@@ -11,6 +11,7 @@ import ProjectsGallery from './pages/ProjectsGallery';
 import ErrorPage from './pages/ErrorPage';
 import Footer from './pages/Footer';
 import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
     return <Router>
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects-gallery" element={<ProjectsGallery />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact-me" element={<Contact />} />
             <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />

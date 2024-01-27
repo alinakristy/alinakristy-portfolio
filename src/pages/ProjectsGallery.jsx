@@ -2,7 +2,6 @@ import Project from '../components/Project';
 import projects from '../data/projects.json';
 
 function ProjectsGallery() {
-    // Body
     return <div>
         This is list of my past projects
         <div>
