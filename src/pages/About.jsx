@@ -1,3 +1,5 @@
+import myLogoImg from '../assets/img/my_img.jpg';
+
 function About() {
     // Body
     return <section id="about" class="about">
@@ -9,7 +11,7 @@ function About() {
 
             <div class="row">
                 <div class="col-lg-4" data-aos="fade-right">
-                    <img src="./assets/img/my_img.jpg" class="img-fluid" alt="" />
+                    <img src={myLogoImg} class="img-fluid" alt="my image" />
                 </div>
                 <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                     <h3>Web Developer</h3>
