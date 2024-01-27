@@ -15,3 +15,9 @@ Currently, two official plugins are available:
 Added automatic deployment using github actions following this tutorials:
 - https://vitejs.dev/guide/static-deploy#github-pages
 - https://www.youtube.com/watch?v=XhoWXhyuW_I
+
+Live URL
+https://alinakristy.github.io/alinakristy-portfolio/
+
+License
+MIT License

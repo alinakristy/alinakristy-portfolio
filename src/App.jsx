@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import ProjectsGallery from './pages/ProjectsGallery';
 import ErrorPage from './pages/ErrorPage';
+import Footer from './pages/Footer';
 
 function App() {
     return <Router>
@@ -16,6 +17,7 @@ function App() {
             <Route path="/projects-gallery" element={<ProjectsGallery />} />
             <Route path="*" element={<ErrorPage />} />
         </Routes>
+        <Footer />
     </Router>;
 }
 
