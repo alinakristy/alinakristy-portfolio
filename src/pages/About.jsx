@@ -10,11 +10,11 @@ function About() {
             </div>
 
             <div class="row">
-                <div class="col-lg-4" data-aos="fade-right">
+                <div class="col-lg-4">
                     <img src={myLogoImg} class="img-fluid" alt="my image" />
                 </div>
-                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                    <h3>Web Developer</h3>
+                <div class="col-lg-8 pt-4 pt-lg-0 content">
+                    <h3>Web Developer // Alina-Cristi Osipov</h3>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul>
