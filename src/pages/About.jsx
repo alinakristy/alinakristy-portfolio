@@ -1,11 +1,10 @@
 import myLogoImg from '../assets/img/my_img.jpg';
 
 function About() {
-    // Body
     return <section id="about" class="about">
         <div class="container">
 
-            <div class="section-title">
+            <div class="section-title my-3">
                 <h2>About</h2>
             </div>
 
@@ -13,9 +12,9 @@ function About() {
                 <div class="col-lg-4">
                     <img src={myLogoImg} class="img-fluid" alt="my image" />
                 </div>
-                <div class="col-lg-8 pt-4 pt-lg-0 content">
+                <div class="col-lg-8 pt-4 pt-lg-0 content my-2">
                     <h3>Web Developer // Alina-Cristi Osipov</h3>
-                    <div class="row">
+                    <div class="row my-3">
                         <div class="col-lg-6">
                             <ul>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Github 📚:</strong> <a href="https://github.com/alinakristy">@alinakristy</a></li>
@@ -33,6 +32,10 @@ function About() {
                             </ul>
                         </div>
                     </div>
+                    <div class="d-flex justify-content-center my-3">
+                        <a class="btn btn-primary btn-lg" href="https://github.com/alinakristy/alinakristy-portfolio/blob/main/src/assets/pdf/Alina%20-%20CV%20-%20Frontend-Dev.pdf">Click to view my CV</a>
+                    </div>
+
                     <p>I am a graduate of the:
                         <ol>
                             <li>Center of Excellence in Informatics and Informational Technologies(CEITI college) in Accounting.</li>
