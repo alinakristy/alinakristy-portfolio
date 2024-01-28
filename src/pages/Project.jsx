@@ -9,7 +9,7 @@ function Project() {
         return <Navigate to='/not-found' replace />;
     }
 
-    return <section id="project">
+    return <section id="project" className="my-3">
         <div className="container">
 
             <div className="row">

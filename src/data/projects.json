@@ -46,29 +46,5 @@
         "image": "https://github.com/alinakristy/Password--Generator/raw/main/images/final%20%20rezult.png",
         "deployed_url": "https://alinakristy.github.io/Password--Generator/",
         "github_url": "https://github.com/alinakristy/Password--Generator"
-    },
-    {
-        "id": 7,
-        "title": "Console-Finances",
-        "description": "Console-Finances,code for analyzing the financial records of a company.",
-        "image": "https://github.com/alinakristy/Console-Finances/raw/main/images/Screenshot%202023-11-10%20at%2023.43.28.png",
-        "deployed_url": "https://alinakristy.github.io/Console-Finances/",
-        "github_url": "https://github.com/alinakristy/Console-Finances"
-    },
-    {
-        "id": 8,
-        "title": "Bootstrap Portfolio Website",
-        "description": "First bootstrap portfolio website.",
-        "image": "https://github.com/alinakristy/Alina-Bootstrap-Portfolio/raw/main/images/alinakristy.github.io_Alina-Bootstrap-Portfolio_.png",
-        "deployed_url": "https://alinakristy.github.io/Alina-Bootstrap-Portfolio/",
-        "github_url": "https://github.com/alinakristy/Alina-Bootstrap-Portfolio"
-    },
-    {
-        "id": 9,
-        "title": "Portfolio Website",
-        "description": "First portfolio website.",
-        "image": "https://github.com/alinakristy/portfolio-website/raw/main/images/website.png",
-        "deployed_url": "https://alinakristy.github.io/portfolio-website/",
-        "github_url": "https://github.com/alinakristy/portfolio-website"
     }
 ]

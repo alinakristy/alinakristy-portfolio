@@ -42,8 +42,8 @@ footer {
 }
 
 .card {
-    width: 18rem;
-    height: 35rem;
+    width: 20rem;
+    height: 30rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
