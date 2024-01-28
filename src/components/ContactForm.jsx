@@ -51,9 +51,8 @@ function ContactForm() {
     return (
         <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-4 mt-5 bg-light rounded">
-            <h1 className="text-center font-weight-bold text-primary">Contact Me</h1>
-            <h5 className="text-center text-success"></h5>
+          <div className="col-md-4 mt-5 rounded">
+            <h1 className="text-center font-weight-bold text-primary-color">Contact Me</h1>
         <Form>
             <Form.Group className="mb-3" controlId="formBasicFirstName">
                 <Form.Label>First Name</Form.Label>
@@ -78,9 +77,11 @@ function ContactForm() {
                     Please enter at least 10 characters.
                 </Form.Text>
             </Form.Group>
+            <div className="center my-3">
             <Button variant="primary" type="submit" onClick={(e) => validateForm(e)}>
                 Submit
             </Button>
+            </div>
         </Form>
         </div>
     </div>

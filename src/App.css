@@ -1,3 +1,14 @@
+:root {
+    --bd-violet: #712cf9;
+    --primary-nav: #E0E1DD;
+    --primary-rest: #415A77;
+    --bg: #DDEDD4;
+}
+
+body {
+    background-color: var(--bg);
+}
+
 .jumbotron {
     background-repeat: no-repeat;
     background-image: url(./assets/img/work-from-home.jpg);
@@ -50,3 +61,22 @@ footer {
 #nav {
     flex-direction: row-reverse;
 }
+
+.btn-primary {
+    background-color: var(--primary-rest);
+    border-color: var(--primary-rest);
+}
+
+.text-primary-color {
+    color: var(--bd-purple);
+}
+
+.navbar {
+    background-color: var(--primary-nav)!important;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
