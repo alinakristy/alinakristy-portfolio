@@ -72,11 +72,11 @@ footer {
 }
 
 .navbar {
-    background-color: var(--primary-nav)!important;
-  }
+    background-color: var(--primary-nav) !important;
+}
 
-  .center {
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}

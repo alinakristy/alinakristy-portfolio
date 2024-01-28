@@ -50,42 +50,42 @@ function ContactForm() {
 
     return (
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-md-4 mt-5 rounded">
-            <h1 className="text-center font-weight-bold text-primary-color">Contact Me</h1>
-        <Form>
-            <Form.Group className="mb-3" controlId="formBasicFirstName">
-                <Form.Label>First Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter first name" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicLastName">
-                <Form.Label>Last Name (Optional)</Form.Label>
-                <Form.Control type="text" placeholder="Enter last name" value={lastName} onChange={(e) => setLastName(e.target.value)} />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email address to contact you back</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                </Form.Text>
-            </Form.Group>
+            <div className="row justify-content-center">
+                <div className="col-md-4 mt-5 rounded">
+                    <h1 className="text-center font-weight-bold text-primary-color">Contact Me</h1>
+                    <Form>
+                        <Form.Group className="mb-3" controlId="formBasicFirstName">
+                            <Form.Label>First Name</Form.Label>
+                            <Form.Control type="text" placeholder="Enter first name" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicLastName">
+                            <Form.Label>Last Name (Optional)</Form.Label>
+                            <Form.Control type="text" placeholder="Enter last name" value={lastName} onChange={(e) => setLastName(e.target.value)} />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Label>Email address to contact you back</Form.Label>
+                            <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                            <Form.Text className="text-muted">
+                                We'll never share your email with anyone else.
+                            </Form.Text>
+                        </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicDescription">
-                <Form.Label>Description</Form.Label>
-                <Form.Control as="textarea" type="text" placeholder="Type your message here" value={description} onChange={(e) => setDescription(e.target.value)} />
-                <Form.Text className="text-muted" value="abc">
-                    Please enter at least 10 characters.
-                </Form.Text>
-            </Form.Group>
-            <div className="center my-3">
-            <Button variant="primary" type="submit" onClick={(e) => validateForm(e)}>
-                Submit
-            </Button>
+                        <Form.Group className="mb-3" controlId="formBasicDescription">
+                            <Form.Label>Description</Form.Label>
+                            <Form.Control as="textarea" type="text" placeholder="Type your message here" value={description} onChange={(e) => setDescription(e.target.value)} />
+                            <Form.Text className="text-muted" value="abc">
+                                Please enter at least 10 characters.
+                            </Form.Text>
+                        </Form.Group>
+                        <div className="center my-3">
+                            <Button variant="primary" type="submit" onClick={(e) => validateForm(e)}>
+                                Submit
+                            </Button>
+                        </div>
+                    </Form>
+                </div>
             </div>
-        </Form>
         </div>
-    </div>
-  </div>
     );
 }
 
