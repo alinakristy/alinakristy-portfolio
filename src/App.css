@@ -42,3 +42,11 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+.card-body {
+    text-align: center;
+}
+
+#nav {
+    flex-direction: row-reverse;
+}
