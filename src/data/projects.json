@@ -1,20 +1,65 @@
 [
     {
         "id": 1,
-        "title": "My awesome project",
-        "description": "This is my awesome project that I have done in just 1 hour",
-        "image": "/img/project-1.png"
+        "title": "Team Profile Generator",
+        "description": "Team Profile Generator tool when executed is asking questions to get full team(Manager, Engineer and Intern) members and then builts a cute responsive html page. Each card be it Manager or Engineer has their own specific fields. Styling was done with Bootstrap. As mentioned the page is responsive it can display from 1 to infinite amount of team members.",
+        "image": "https://github.com/alinakristy/team-profile-generator/raw/main/img/team1.png",
+        "deployed_url": "https://alinakristy.github.io/team-profile-generator/"
     },
     {
         "id": 2,
-        "title": "My awesome project 2",
-        "description": "This is my awesome project that I have done in just 2 hours",
-        "image": "/img/project-2.png"
+        "title": "FitForecast",
+        "description": "A web application for busy professionals who want to stay fit but find it hard to workout because of disruptions caused by the weather, and who need help creating a workout tailored to their needs, fitness level and equipment available.",
+        "image": "https://github.com/alinakristy/FitForecast/raw/main/assets/images/demoGif.gif",
+        "deployed_url": "https://alinakristy.github.io/FitForecast/"
     },
     {
         "id": 3,
-        "title": "My awesome project 3",
-        "description": "This is my awesome project that I have done in just 3 hours",
-        "image": "/img/project-3.png"
+        "title": "Weather Dashboard",
+        "description": "In this challenge I build a weather dashboard that is runing in the browser and feature dynamically updated HTML and CSS.",
+        "image": "https://github.com/alinakristy/weather-dashboard/raw/main/assets/images/1.png",
+        "deployed_url": "https://alinakristy.github.io/weather-dashboard/"
+    },
+    {
+        "id": 4,
+        "title": "Planner App",
+        "description": "In this challenge I create a simple calendar application that allows a user to save events for each hour of the day.",
+        "image": "https://github.com/alinakristy/plannerApp/raw/main/images/05-third-party-apis-homework-demo.gif",
+        "deployed_url": "https://alinakristy.github.io/plannerApp/"
+    },
+    {
+        "id": 5,
+        "title": "JS-QUIZ",
+        "description": "Timed quiz on JavaScript fundamentals that stores user initials + score, it also provide with leaderboards page to see top players sorted by score.",
+        "image": "https://github.com/alinakristy/JS-QUIZ/raw/main/assets/images/08-web-apis-challenge-demo.gif",
+        "deployed_url": "https://alinakristy.github.io/JS-QUIZ/"
+    },
+    {
+        "id": 6,
+        "title": "Password Generator",
+        "description": "Application that an employee can use to generate a random password.",
+        "image": "https://github.com/alinakristy/Password--Generator/raw/main/images/final%20%20rezult.png",
+        "deployed_url": "https://alinakristy.github.io/Password--Generator/"
+    },
+    {
+        "id": 7,
+        "title": "Console-Finances",
+        "description": "Console-Finances,code for analyzing the financial records of a company.",
+        "image": "https://github.com/alinakristy/Console-Finances/raw/main/images/Screenshot%202023-11-10%20at%2023.43.28.png",
+        "deployed_url": "https://alinakristy.github.io/Console-Finances/"
+    },
+    {
+        "id": 8,
+        "title": "Bootstrap Portfolio Website",
+        "description": "First bootstrap portfolio website.",
+        "image": "https://github.com/alinakristy/Alina-Bootstrap-Portfolio/raw/main/images/alinakristy.github.io_Alina-Bootstrap-Portfolio_.png",
+        "deployed_url": "https://alinakristy.github.io/Alina-Bootstrap-Portfolio/"
+    },
+    {
+        "id": 9,
+        "title": "Portfolio Website",
+        "description": "First portfolio website.",
+        "image": "https://github.com/alinakristy/portfolio-website/raw/main/images/website.png",
+        "deployed_url": "https://alinakristy.github.io/portfolio-website/"
     }
 ]
