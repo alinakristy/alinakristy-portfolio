@@ -14,7 +14,6 @@ import Home from './pages/Home';
 import ProjectsGallery from './pages/ProjectsGallery';
 import ErrorPage from './pages/ErrorPage';
 import Footer from './pages/Footer';
-import About from './pages/About';
 import Contact from './pages/Contact';
 import Project from './pages/Project';
 
@@ -24,7 +23,6 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects-gallery" element={<ProjectsGallery />} />
-            <Route path="/about" element={<About />} />
             <Route path="/contact-me" element={<Contact />} />
             <Route path="/project/:id" element={<Project />} />
             <Route path="/not-found" element={<ErrorPage />} />
