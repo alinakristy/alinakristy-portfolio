@@ -21,7 +21,8 @@ function Project() {
                     <p>{project.description}</p>
 
                     <div className="d-flex justify-content-center my-3">
-                        <a className="btn btn-primary btn-lg" href={project.deployed_url}>View Demo</a>
+                        <a className="btn btn-primary btn-lg mx-2" href={project.deployed_url}>View Demo</a>
+                        <a className="btn btn-primary btn-lg mx-2" href={project.github_url}>Source Code</a>
                     </div>
                 </div>
             </div>
