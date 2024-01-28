@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Team Profile Generator",
-        "description": "Team Profile Generator tool when executed is asking questions to get full team(Manager, Engineer and Intern) members and then builts a cute responsive html page. Each card be it Manager or Engineer has their own specific fields. Styling was done with Bootstrap. As mentioned the page is responsive it can display from 1 to infinite amount of team members.",
+        "description": "Team Profile Generator tool when executed is asking questions to get full team(Manager, Engineer and Intern) members and then builts a cute responsive html page.",
         "image": "https://github.com/alinakristy/team-profile-generator/raw/main/img/team1.png",
         "deployed_url": "https://alinakristy.github.io/team-profile-generator/"
     },
